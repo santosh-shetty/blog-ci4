@@ -1,0 +1,428 @@
+CRITICAL - 2023-04-06 01:18:47 --> Trying to access array offset on value of type int
+in APPPATH\Views\Index.php on line 233.
+ 1 APPPATH\Views\Index.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Index.php', 233)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 01:20:53 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\Index.php on line 247.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 01:24:13 --> syntax error, unexpected end of file
+in APPPATH\Views\Index.php on line 657.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(55): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 01:24:45 --> Undefined array key "url"
+in APPPATH\Views\Index.php on line 233.
+ 1 APPPATH\Views\Index.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Index.php', 233)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(55): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 01:29:43 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 01:36:27 --> Too few arguments to function CodeIgniter\HTTP\CURLRequest::__construct(), 0 passed in C:\xampp\htdocs\Blog\app\Controllers\Home.php on line 17 and at least 2 expected
+in SYSTEMPATH\HTTP\CURLRequest.php on line 100.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\HTTP\CURLRequest->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 01:36:44 --> Too few arguments to function CodeIgniter\HTTP\CURLRequest::__construct(), 0 passed in C:\xampp\htdocs\Blog\app\Controllers\Home.php on line 17 and at least 2 expected
+in SYSTEMPATH\HTTP\CURLRequest.php on line 100.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\HTTP\CURLRequest->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 01:41:55 --> CodeIgniter\HTTP\CURLRequest::__construct(): Argument #1 ($config) must be of type Config\App, string given, called in C:\xampp\htdocs\Blog\app\Controllers\Home.php on line 17
+in SYSTEMPATH\HTTP\CURLRequest.php on line 100.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\HTTP\CURLRequest->__construct('https://jsonplaceholder.typicode.com/posts?_limit=5')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 01:45:46 --> Undefined variable $httpClient
+in APPPATH\Views\Index.php on line 228.
+ 1 APPPATH\Views\Index.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $httpClient', 'APPPATH\\Views\\Index.php', 228)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 01:46:17 --> Undefined array key "image_url"
+in APPPATH\Views\Index.php on line 231.
+ 1 APPPATH\Views\Index.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_url"', 'APPPATH\\Views\\Index.php', 231)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:02:53 --> Trying to access array offset on value of type int
+in APPPATH\Views\Single_view_api.php on line 148.
+ 1 APPPATH\Views\Single_view_api.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Single_view_api.php', 148)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:03:35 --> Undefined variable $photo
+in APPPATH\Views\Single_view_api.php on line 151.
+ 1 APPPATH\Views\Single_view_api.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $photo', 'APPPATH\\Views\\Single_view_api.php', 151)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:03:48 --> Trying to access array offset on value of type int
+in APPPATH\Views\Single_view_api.php on line 151.
+ 1 APPPATH\Views\Single_view_api.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Single_view_api.php', 151)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:04:09 --> Trying to access array offset on value of type int
+in APPPATH\Views\Single_view_api.php on line 163.
+ 1 APPPATH\Views\Single_view_api.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Single_view_api.php', 163)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:04:24 --> Trying to access array offset on value of type int
+in APPPATH\Views\Single_view_api.php on line 168.
+ 1 APPPATH\Views\Single_view_api.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Single_view_api.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:05:10 --> Trying to access array offset on value of type int
+in APPPATH\Views\Single_view_api.php on line 168.
+ 1 APPPATH\Views\Single_view_api.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Single_view_api.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(55): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:07:13 --> Undefined variable $post
+in APPPATH\Views\Single_view_api.php on line 168.
+ 1 APPPATH\Views\Single_view_api.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'APPPATH\\Views\\Single_view_api.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(55): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:09:06 --> Undefined variable $post
+in APPPATH\Views\Single_view_api.php on line 168.
+ 1 APPPATH\Views\Single_view_api.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'APPPATH\\Views\\Single_view_api.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(55): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:10:36 --> Undefined array key "date"
+in APPPATH\Views\Single_view_api.php on line 163.
+ 1 APPPATH\Views\Single_view_api.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'APPPATH\\Views\\Single_view_api.php', 163)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(55): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:10:47 --> Undefined array key "date"
+in APPPATH\Views\Single_view_api.php on line 163.
+ 1 APPPATH\Views\Single_view_api.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'APPPATH\\Views\\Single_view_api.php', 163)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 02:13:04 --> Undefined array key "timestamp"
+in APPPATH\Views\Single_view_api.php on line 163.
+ 1 APPPATH\Views\Single_view_api.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "timestamp"', 'APPPATH\\Views\\Single_view_api.php', 163)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('Single_view_api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->single_view_api('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 17:12:03 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-06 17:12:20 --> mysqli_sql_exception: Table 'blog.api_posts_api' doesn't exist in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Blog\app\Models\api_posts_model.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Blog\app\Controllers\Home.php(13): App\Models\api_posts_model->allData()
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-06 17:12:20 --> Table 'blog.api_posts_api' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `api_posts_api`', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\api_posts_model.php(18): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(13): App\Models\api_posts_model->allData()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 17:28:53 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\api_posts_model.php(14): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\apiController.php(19): App\Models\api_posts_model->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 17:29:53 --> syntax error, unexpected identifier "print_r", expecting "," or ";"
+in APPPATH\Controllers\apiController.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\apiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\apiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\apiController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\apiController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 17:37:11 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\api_posts_model.php(14): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\apiController.php(22): App\Models\api_posts_model->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 17:40:38 --> Undefined array key "id"
+in APPPATH\Controllers\apiController.php on line 22.
+ 1 APPPATH\Controllers\apiController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\apiController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 17:52:11 --> Cannot redeclare App\Models\api_posts_model::insertData()
+in APPPATH\Models\api_posts_model.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-06 17:53:17 --> Cannot redeclare App\Models\api_posts_model::insertData()
+in APPPATH\Models\api_posts_model.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-06 17:53:35 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\api_posts_model.php(14): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\apiController.php(29): App\Models\api_posts_model->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-06 17:55:51 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Blog\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Blog\app\Models\api_posts_model.php(14): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Blog\app\Controllers\apiController.php(28): App\Models\api_posts_model->insertData(Array)
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\apiController->index()
+#10 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+#11 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-06 17:55:51 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `api_posts` (`title`, `body`) VALUES (:title:, :body:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\api_posts_model.php(14): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\apiController.php(28): App\Models\api_posts_model->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-06 17:56:17 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Blog\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Blog\app\Models\api_posts_model.php(14): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Blog\app\Controllers\apiController.php(28): App\Models\api_posts_model->insertData(Array)
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\apiController->index()
+#10 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+#11 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-06 17:56:17 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `api_posts` (`title`, `body`) VALUES (:title:, :body:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\api_posts_model.php(14): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\apiController.php(28): App\Models\api_posts_model->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-06 17:56:39 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Blog\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Blog\app\Models\api_posts_model.php(14): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Blog\app\Controllers\apiController.php(28): App\Models\api_posts_model->insertData(Array)
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\apiController->index()
+#10 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+#11 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-06 17:56:39 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `api_posts` (`title`, `body`) VALUES (:title:, :body:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\api_posts_model.php(14): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\apiController.php(28): App\Models\api_posts_model->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-06 17:57:02 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Blog\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Blog\app\Models\api_posts_model.php(14): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Blog\app\Controllers\apiController.php(28): App\Models\api_posts_model->insertData(Array)
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\apiController->index()
+#10 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+#11 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-06 17:57:02 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `api_posts` (`title`, `body`) VALUES (:title:, :body:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\api_posts_model.php(14): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\apiController.php(28): App\Models\api_posts_model->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 18:10:32 --> Undefined variable $dbpost
+in APPPATH\Views\Api.php on line 29.
+ 1 APPPATH\Views\Api.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dbpost', 'APPPATH\\Views\\Api.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(39): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-06 18:11:30 --> Illegal offset type
+in APPPATH\Controllers\apiController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

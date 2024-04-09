@@ -1,0 +1,560 @@
+CRITICAL - 2023-04-09 03:43:09 --> 6 : Could not resolve host: jsonplaceholder.typicode.com
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: jsonplaceholder.typicode.com')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://jsonplaceholder.typicode.com/posts?_limit=10')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://jsonplaceholder.typicode.com/posts?_limit=10', [])
+ 5 APPPATH\Controllers\Home.php(20): CodeIgniter\HTTP\CURLRequest->get('https://jsonplaceholder.typicode.com/posts?_limit=10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 03:43:18 --> 6 : Could not resolve host: jsonplaceholder.typicode.com
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: jsonplaceholder.typicode.com')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://jsonplaceholder.typicode.com/posts?_limit=10')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://jsonplaceholder.typicode.com/posts?_limit=10', [])
+ 5 APPPATH\Controllers\Home.php(20): CodeIgniter\HTTP\CURLRequest->get('https://jsonplaceholder.typicode.com/posts?_limit=10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 03:55:32 --> Invalid file: "Single_view_api_db.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Single_view_api_db.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api_db', [], true)
+ 3 APPPATH\Controllers\apiController.php(95): view('Single_view_api_db', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->single_view_api_db('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 03:58:10 --> Invalid file: "Single_view_api_db.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Single_view_api_db.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api_db', [], true)
+ 3 APPPATH\Controllers\apiController.php(95): view('Single_view_api_db', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->single_view_api_db('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 04:05:03 --> Undefined array key "photo"
+in APPPATH\Views\Single_view_api_db.php on line 15.
+ 1 APPPATH\Views\Single_view_api_db.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "photo"', 'APPPATH\\Views\\Single_view_api_db.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api_db', [], true)
+ 5 APPPATH\Controllers\apiController.php(95): view('Single_view_api_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->single_view_api_db('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 04:08:03 --> Undefined array key "photo"
+in APPPATH\Views\Single_view_api_db.php on line 15.
+ 1 APPPATH\Views\Single_view_api_db.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "photo"', 'APPPATH\\Views\\Single_view_api_db.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api_db', [], true)
+ 5 APPPATH\Controllers\apiController.php(95): view('Single_view_api_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->single_view_api_db('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 04:08:03 --> Undefined array key "photo"
+in APPPATH\Views\Single_view_api_db.php on line 15.
+ 1 APPPATH\Views\Single_view_api_db.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "photo"', 'APPPATH\\Views\\Single_view_api_db.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api_db', [], true)
+ 5 APPPATH\Controllers\apiController.php(95): view('Single_view_api_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->single_view_api_db('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 04:08:42 --> Undefined array key "title"
+in APPPATH\Views\Single_view_api_db.php on line 15.
+ 1 APPPATH\Views\Single_view_api_db.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\Single_view_api_db.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api_db', [], true)
+ 5 APPPATH\Controllers\apiController.php(95): view('Single_view_api_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->single_view_api_db('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 04:08:55 --> Undefined array key "title"
+in APPPATH\Views\Single_view_api_db.php on line 15.
+ 1 APPPATH\Views\Single_view_api_db.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\Single_view_api_db.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api_db', [], true)
+ 5 APPPATH\Controllers\apiController.php(95): view('Single_view_api_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->single_view_api_db('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 04:09:06 --> Undefined array key "title"
+in APPPATH\Views\Single_view_api_db.php on line 15.
+ 1 APPPATH\Views\Single_view_api_db.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\Single_view_api_db.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api_db', [], true)
+ 5 APPPATH\Controllers\apiController.php(95): view('Single_view_api_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->single_view_api_db('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 04:09:26 --> Undefined array key "title"
+in APPPATH\Views\Single_view_api_db.php on line 15.
+ 1 APPPATH\Views\Single_view_api_db.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\Single_view_api_db.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api_db', [], true)
+ 5 APPPATH\Controllers\apiController.php(95): view('Single_view_api_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->single_view_api_db('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 04:14:42 --> Undefined variable $posts
+in APPPATH\Views\Single_view_api_db.php on line 11.
+ 1 APPPATH\Views\Single_view_api_db.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'APPPATH\\Views\\Single_view_api_db.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Single_view_api_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Single_view_api_db', [], true)
+ 5 APPPATH\Controllers\apiController.php(95): view('Single_view_api_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->single_view_api_db('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 10:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-09 10:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 10:54:34 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 10:54:34 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 10:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 10:57:24 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 10:57:24 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 10:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-09 10:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 10:57:44 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 10:57:44 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 11:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 11:00:34 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:00:34 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-09 11:01:35 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:01:35 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-09 11:02:32 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:02:32 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 11:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 11:02:43 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:02:43 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 11:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 11:04:06 --> mysqli_sql_exception: Unknown column 'category.id' in 'where clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '14')
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('14')
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('14')
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:04:06 --> Unknown column 'category.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `category`.`id` = :category.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '14')
+ 4 APPPATH\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('14')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('14')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-09 11:05:37 --> mysqli_sql_exception: Unknown column 'category.id' in 'where clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '14')
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('14')
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('14')
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:05:37 --> Unknown column 'category.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `category`.`id` = :category.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '14')
+ 4 APPPATH\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('14')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('14')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-09 11:07:59 --> mysqli_sql_exception: Unknown column 'category.id' in 'where clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '14')
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('14')
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('14')
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:07:59 --> Unknown column 'category.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `category`.`id` = :category.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '14')
+ 4 APPPATH\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('14')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('14')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-09 11:08:20 --> mysqli_sql_exception: Unknown column 'category.id' in 'where clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '14')
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('14')
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('14')
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:08:20 --> Unknown column 'category.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `category`.`id` = :category.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '14')
+ 4 APPPATH\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('14')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('14')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 11:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-09 11:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-09 11:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-09 11:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 11:11:05 --> mysqli_sql_exception: Unknown column 'category.id' in 'where clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '15')
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('15')
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('15')
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:11:05 --> Unknown column 'category.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `category`.`id` = :category.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '15')
+ 4 APPPATH\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('15')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('15')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 11:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 11:15:13 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ca...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(359): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category_delete('15')
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:15:13 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `category`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Admin_login.php(359): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category_delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 11:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 11:16:46 --> mysqli_sql_exception: Unknown column 'category.id' in 'where clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '14')
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('14')
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('14')
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:16:46 --> Unknown column 'category.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `category`.`id` = :category.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '14')
+ 4 APPPATH\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('14')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('14')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 11:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 11:16:52 --> mysqli_sql_exception: Unknown column 'category.id' in 'where clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('4')
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:16:52 --> Unknown column 'category.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `category`.`id` = :category.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '4')
+ 4 APPPATH\Controllers\Admin_login.php(335): CodeIgniter\BaseModel->find('4')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category_edit('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 11:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-09 11:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-09 11:19:13 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ca...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(359): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category_delete('15')
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-09 11:19:13 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `category`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Admin_login.php(359): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category_delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-09 11:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

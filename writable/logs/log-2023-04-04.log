@@ -1,0 +1,829 @@
+INFO - 2023-04-04 07:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 07:55:54 --> Undefined array key "categoryd"
+in APPPATH\Views\Index.php on line 640.
+ 1 APPPATH\Views\Index.php(640): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoryd"', 'APPPATH\\Views\\Index.php', 640)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 07:56:39 --> Undefined array key "category_id"
+in APPPATH\Views\Index.php on line 640.
+ 1 APPPATH\Views\Index.php(640): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'APPPATH\\Views\\Index.php', 640)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 07:59:59 --> Undefined array key ""
+in APPPATH\Views\Index.php on line 640.
+ 1 APPPATH\Views\Index.php(640): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'APPPATH\\Views\\Index.php', 640)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 08:00:07 --> Undefined array key ""
+in APPPATH\Views\Index.php on line 640.
+ 1 APPPATH\Views\Index.php(640): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'APPPATH\\Views\\Index.php', 640)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 08:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 08:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 08:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 08:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 08:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 09:34:24 --> Class "GuzzleHttp\Client" not found
+in APPPATH\Controllers\apiController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:56:04 --> Class "App\Controllers\http\Client" not found
+in APPPATH\Controllers\apiController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:57:13 --> Class "http\Client" not found
+in APPPATH\Views\api.php on line 2.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('api', [], true)
+ 4 APPPATH\Controllers\apiController.php(19): view('api')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:00:36 --> file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+in APPPATH\Controllers\apiController.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed', 'APPPATH\\Controllers\\apiController.php', 20)
+ 2 APPPATH\Controllers\apiController.php(20): file_get_contents('https://api.icndb.com/jokes/random')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:01:07 --> file_get_contents(https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random): Failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+
+in APPPATH\Controllers\apiController.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random): Failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+', 'APPPATH\\Controllers\\apiController.php', 20)
+ 2 APPPATH\Controllers\apiController.php(20): file_get_contents('https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:06:50 --> Class "GuzzleHttp\Client" not found
+in APPPATH\Controllers\apiController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:09:33 --> Class "GuzzleHttp\Client" not found
+in APPPATH\Controllers\apiController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:16:49 --> Class "GuzzleHttp\Client" not found
+in APPPATH\Controllers\apiController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:19:32 --> Class "GuzzleHttp\Client" not found
+in APPPATH\Controllers\apiController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:34:12 --> Command `REQUEST` is not a registered Redis command.
+in FCPATH\vendor\predis\predis\src\Command\Factory.php on line 67.
+ 1 FCPATH\vendor\predis\predis\src\Client.php(313): Predis\Command\Factory->create('REQUEST', [...])
+ 2 FCPATH\vendor\predis\predis\src\Client.php(304): Predis\Client->createCommand('request', [...])
+ 3 APPPATH\Controllers\apiController.php(14): Predis\Client->__call('request', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:34:37 --> Command `REQUEST` is not a registered Redis command.
+in FCPATH\vendor\predis\predis\src\Command\Factory.php on line 67.
+ 1 FCPATH\vendor\predis\predis\src\Client.php(313): Predis\Command\Factory->create('REQUEST', [...])
+ 2 FCPATH\vendor\predis\predis\src\Client.php(304): Predis\Client->createCommand('request', [...])
+ 3 APPPATH\Controllers\apiController.php(14): Predis\Client->__call('request', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:36:33 --> Call to a member function request() on null
+in APPPATH\Controllers\apiController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:36:59 --> Call to a member function request() on null
+in APPPATH\Controllers\apiController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:49:09 --> Undefined variable $data
+in APPPATH\Views\Api.php on line 1.
+ 1 APPPATH\Views\Api.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Api.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('api', [], true)
+ 5 APPPATH\Controllers\apiController.php(48): view('api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:49:20 --> Undefined variable $data
+in APPPATH\Views\Api.php on line 1.
+ 1 APPPATH\Views\Api.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Api.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(48): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:58:41 --> Cannot access offset of type string on string
+in APPPATH\Views\Api.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 4 APPPATH\Controllers\apiController.php(39): view('Api', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 10:59:27 --> Undefined variable $data
+in APPPATH\Views\Api.php on line 1.
+ 1 APPPATH\Views\Api.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Api.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(39): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:00:03 --> Call to undefined function {
+  "ip": "161.185.160.93",
+  "city": "New York City",
+  "region": "New York",
+  "country": "US",
+  "loc": "40.7143,-74.0060",
+  "org": "AS22252 The City of New York",
+  "postal": "10004",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+}()
+in APPPATH\Views\Api.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 4 APPPATH\Controllers\apiController.php(39): view('Api', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:04:18 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Api.php on line 1.
+ 1 APPPATH\Views\Api.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\Api.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(38): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:05:03 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Api.php on line 1.
+ 1 APPPATH\Views\Api.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\Api.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(38): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:07:38 --> Cannot access offset of type string on string
+in APPPATH\Views\Api.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 4 APPPATH\Controllers\apiController.php(38): view('Api', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:07:57 --> Undefined variable $data
+in APPPATH\Views\Api.php on line 1.
+ 1 APPPATH\Views\Api.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Api.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(38): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:13:10 --> Undefined variable $response
+in APPPATH\Views\Api.php on line 1.
+ 1 APPPATH\Views\Api.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Views\\Api.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(39): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:13:26 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Api.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 4 APPPATH\Controllers\apiController.php(39): view('Api', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:13:49 --> Undefined variable $obj
+in APPPATH\Views\Api.php on line 1.
+ 1 APPPATH\Views\Api.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obj', 'APPPATH\\Views\\Api.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(39): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:14:19 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\Api.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 4 APPPATH\Controllers\apiController.php(39): view('Api', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:14:31 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Api.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 4 APPPATH\Controllers\apiController.php(39): view('Api', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 11:15:23 --> Undefined variable $response
+in APPPATH\Views\Api.php on line 1.
+ 1 APPPATH\Views\Api.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Views\\Api.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(39): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 15:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 15:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 15:40:49 --> Undefined array key "image"
+in APPPATH\Views\Api.php on line 17.
+ 1 APPPATH\Views\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\Api.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:41:32 --> Undefined array key "photos"
+in APPPATH\Views\Api.php on line 17.
+ 1 APPPATH\Views\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "photos"', 'APPPATH\\Views\\Api.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:41:39 --> Undefined array key "photo"
+in APPPATH\Views\Api.php on line 17.
+ 1 APPPATH\Views\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "photo"', 'APPPATH\\Views\\Api.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:43:13 --> Undefined variable $random_photo
+in APPPATH\Views\Api.php on line 17.
+ 1 APPPATH\Views\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $random_photo', 'APPPATH\\Views\\Api.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:44:39 --> Undefined variable $random_photo
+in APPPATH\Views\Api.php on line 14.
+ 1 APPPATH\Views\Api.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $random_photo', 'APPPATH\\Views\\Api.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:46:24 --> Undefined variable $photos
+in APPPATH\Views\Api.php on line 15.
+ 1 APPPATH\Views\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $photos', 'APPPATH\\Views\\Api.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:47:13 --> Undefined array key "url"
+in APPPATH\Views\Api.php on line 19.
+ 1 APPPATH\Views\Api.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Api.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:48:24 --> Undefined array key "body"
+in APPPATH\Views\Api.php on line 16.
+ 1 APPPATH\Views\Api.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "body"', 'APPPATH\\Views\\Api.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:48:32 --> Undefined array key "url1"
+in APPPATH\Views\Api.php on line 20.
+ 1 APPPATH\Views\Api.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url1"', 'APPPATH\\Views\\Api.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:49:21 --> Undefined array key "url1"
+in APPPATH\Views\Api.php on line 21.
+ 1 APPPATH\Views\Api.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url1"', 'APPPATH\\Views\\Api.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:50:38 --> Undefined array key "url1"
+in APPPATH\Views\Api.php on line 21.
+ 1 APPPATH\Views\Api.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url1"', 'APPPATH\\Views\\Api.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 15:51:00 --> Undefined array key "body"
+in APPPATH\Views\Api.php on line 17.
+ 1 APPPATH\Views\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "body"', 'APPPATH\\Views\\Api.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:11:52 --> Undefined variable $random_post
+in APPPATH\Views\Api.php on line 17.
+ 1 APPPATH\Views\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $random_post', 'APPPATH\\Views\\Api.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:11:59 --> Undefined variable $random_post
+in APPPATH\Views\Api.php on line 17.
+ 1 APPPATH\Views\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $random_post', 'APPPATH\\Views\\Api.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:12:39 --> Undefined variable $random_post
+in APPPATH\Views\Api.php on line 17.
+ 1 APPPATH\Views\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $random_post', 'APPPATH\\Views\\Api.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:12:47 --> Undefined variable $random_post
+in APPPATH\Views\Api.php on line 18.
+ 1 APPPATH\Views\Api.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $random_post', 'APPPATH\\Views\\Api.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(49): view('Api')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:19:10 --> syntax error, unexpected identifier " ", expecting "," or ";"
+in APPPATH\Views\Api.php on line 33.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 3 APPPATH\Controllers\apiController.php(49): view('Api')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:50:02 --> Undefined array key "title"
+in APPPATH\Views\Api.php on line 34.
+ 1 APPPATH\Views\Api.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\Api.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(22): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:50:32 --> Undefined array key "title"
+in APPPATH\Views\Api.php on line 34.
+ 1 APPPATH\Views\Api.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\Api.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(22): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:51:02 --> Undefined array key "title"
+in APPPATH\Views\Api.php on line 34.
+ 1 APPPATH\Views\Api.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\Api.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(22): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:51:20 --> Undefined array key "title"
+in APPPATH\Views\Api.php on line 34.
+ 1 APPPATH\Views\Api.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\Api.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(22): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:58:35 --> Undefined variable $row
+in APPPATH\Views\Api.php on line 28.
+ 1 APPPATH\Views\Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\Api.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(25): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 16:59:17 --> Undefined variable $r
+in APPPATH\Views\Api.php on line 31.
+ 1 APPPATH\Views\Api.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'APPPATH\\Views\\Api.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(25): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:01:05 --> syntax error, unexpected end of file
+in APPPATH\Views\Api.php on line 34.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 3 APPPATH\Controllers\apiController.php(25): view('Api', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:01:25 --> Trying to access array offset on value of type int
+in APPPATH\Views\Api.php on line 33.
+ 1 APPPATH\Views\Api.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Api.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(25): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:02:15 --> Undefined variable $post
+in APPPATH\Views\Api.php on line 29.
+ 1 APPPATH\Views\Api.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'APPPATH\\Views\\Api.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(25): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:05:54 --> Undefined variable $row
+in APPPATH\Views\Index.php on line 143.
+ 1 APPPATH\Views\Index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\Index.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:06:04 --> Undefined array key "image"
+in APPPATH\Views\Index.php on line 148.
+ 1 APPPATH\Views\Index.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\Index.php', 148)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:06:27 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:13:38 --> Invalid file: "Index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:14:07 --> Invalid file: "Index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:14:08 --> Invalid file: "Index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:14:13 --> Invalid file: "Index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:16:35 --> Undefined array key "image"
+in APPPATH\Views\Index.php on line 148.
+ 1 APPPATH\Views\Index.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\Index.php', 148)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:16:55 --> Undefined array key "image"
+in APPPATH\Views\Index.php on line 148.
+ 1 APPPATH\Views\Index.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\Index.php', 148)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:17:20 --> Undefined array key "image"
+in APPPATH\Views\Index.php on line 148.
+ 1 APPPATH\Views\Index.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\Index.php', 148)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:17:24 --> Undefined array key "image"
+in APPPATH\Views\Index.php on line 148.
+ 1 APPPATH\Views\Index.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\Index.php', 148)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:17:25 --> Undefined array key "image"
+in APPPATH\Views\Index.php on line 148.
+ 1 APPPATH\Views\Index.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\Index.php', 148)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:26:55 --> Trying to access array offset on value of type int
+in APPPATH\Views\Index.php on line 230.
+ 1 APPPATH\Views\Index.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Index.php', 230)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:27:15 --> Trying to access array offset on value of type int
+in APPPATH\Views\Index.php on line 230.
+ 1 APPPATH\Views\Index.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Index.php', 230)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:28:42 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\Index.php on line 246.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:30:02 --> Trying to access array offset on value of type int
+in APPPATH\Views\Index.php on line 230.
+ 1 APPPATH\Views\Index.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Index.php', 230)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:32:53 --> Unmatched '}'
+in APPPATH\Views\Index.php on line 246.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:52:07 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 31.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:53:24 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 31.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:53:46 --> Undefined variable $image_url
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image_url', 'APPPATH\\Controllers\\Home.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 17:56:51 --> Undefined array key "date"
+in APPPATH\Views\Index.php on line 238.
+ 1 APPPATH\Views\Index.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'APPPATH\\Views\\Index.php', 238)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 18:03:19 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Index.php on line 223.
+ 1 APPPATH\Views\Index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\Index.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 18:12:17 --> Array to string conversion
+in APPPATH\Views\Index.php on line 229.
+ 1 APPPATH\Views\Index.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Index.php', 229)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

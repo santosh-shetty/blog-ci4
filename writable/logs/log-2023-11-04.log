@@ -1,0 +1,11 @@
+CRITICAL - 2023-11-04 04:27:32 --> 6 : Could not resolve host: jsonplaceholder.typicode.com
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: jsonplaceholder.typicode.com')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://jsonplaceholder.typicode.com/posts?_limit=10')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://jsonplaceholder.typicode.com/posts?_limit=10', [])
+ 5 APPPATH\Controllers\Home.php(21): CodeIgniter\HTTP\CURLRequest->get('https://jsonplaceholder.typicode.com/posts?_limit=10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

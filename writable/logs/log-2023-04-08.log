@@ -1,0 +1,212 @@
+CRITICAL - 2023-04-08 08:55:13 --> Invalid file: "categories.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categories', [], true)
+ 3 APPPATH\Controllers\category_api.php(15): view('categories', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\category_api->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\category_api))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 08:56:03 --> syntax error, unexpected identifier "print_r", expecting "," or ";"
+in APPPATH\Controllers\category_api.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\category_api.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\category_api')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\category_api')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\category_api', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 08:56:10 --> Invalid file: "categories.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categories', [], true)
+ 3 APPPATH\Controllers\category_api.php(15): view('categories', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\category_api->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\category_api))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 09:02:25 --> Invalid file: "categories.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categories', [], true)
+ 3 APPPATH\Controllers\category_api.php(15): view('categories', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\category_api->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\category_api))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 09:31:20 --> Undefined variable $categories
+in APPPATH\Views\Api.php on line 27.
+ 1 APPPATH\Views\Api.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\Api.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(70): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-08 10:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-08 10:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-08 10:55:37 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Blog\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Blog\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Blog\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Blog\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Blog\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Blog\app\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Blog\system\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+#8 C:\xampp\htdocs\Blog\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+#9 C:\xampp\htdocs\Blog\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Blog\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-08 10:55:37 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin_login.php(289): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_login->category()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 11:54:27 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\apiController.php on line 86.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\apiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\apiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\apiController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\apiController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 12:10:08 --> Attempt to read property "title" on array
+in APPPATH\Views\Api.php on line 35.
+ 1 APPPATH\Views\Api.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on array', 'APPPATH\\Views\\Api.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(70): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 12:20:02 --> Attempt to read property "title" on array
+in APPPATH\Views\Api.php on line 35.
+ 1 APPPATH\Views\Api.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on array', 'APPPATH\\Views\\Api.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(70): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 12:20:25 --> Undefined array key "tile"
+in APPPATH\Views\Api.php on line 35.
+ 1 APPPATH\Views\Api.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tile"', 'APPPATH\\Views\\Api.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(70): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 13:21:43 --> 6 : Could not resolve host: jsonplaceholder.typicode.com
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: jsonplaceholder.typicode.com')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://jsonplaceholder.typicode.com/posts?_limit=10')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://jsonplaceholder.typicode.com/posts?_limit=10', [])
+ 5 APPPATH\Controllers\Home.php(20): CodeIgniter\HTTP\CURLRequest->get('https://jsonplaceholder.typicode.com/posts?_limit=10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 13:22:22 --> 6 : Could not resolve host: jsonplaceholder.typicode.com
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: jsonplaceholder.typicode.com')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://jsonplaceholder.typicode.com/posts?_limit=10')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://jsonplaceholder.typicode.com/posts?_limit=10', [])
+ 5 APPPATH\Controllers\Home.php(20): CodeIgniter\HTTP\CURLRequest->get('https://jsonplaceholder.typicode.com/posts?_limit=10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 13:54:07 --> Undefined variable $categorys
+in APPPATH\Views\Api.php on line 15.
+ 1 APPPATH\Views\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorys', 'APPPATH\\Views\\Api.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(70): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 13:58:54 --> Undefined variable $category_id
+in APPPATH\Views\Api.php on line 45.
+ 1 APPPATH\Views\Api.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_id', 'APPPATH\\Views\\Api.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Api.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 5 APPPATH\Controllers\apiController.php(70): view('Api', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 13:59:36 --> syntax error, unexpected token "endif"
+in APPPATH\Views\Api.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Api', [], true)
+ 3 APPPATH\Controllers\apiController.php(70): view('Api', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 14:11:34 --> Call to undefined method App\Models\api_posts_model::getPostsByCategoryId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\apiController.php(78): CodeIgniter\Model->__call('getPostsByCategoryId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->filter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 14:11:38 --> Call to undefined method App\Models\api_posts_model::getPostsByCategoryId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\apiController.php(78): CodeIgniter\Model->__call('getPostsByCategoryId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->filter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 14:11:41 --> Call to undefined method App\Models\api_posts_model::getPostsByCategoryId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\apiController.php(78): CodeIgniter\Model->__call('getPostsByCategoryId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->filter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 14:11:43 --> Call to undefined method App\Models\api_posts_model::getPostsByCategoryId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\apiController.php(78): CodeIgniter\Model->__call('getPostsByCategoryId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->filter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 14:11:46 --> Call to undefined method App\Models\api_posts_model::getPostsByCategoryId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\apiController.php(78): CodeIgniter\Model->__call('getPostsByCategoryId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->filter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-08 14:12:34 --> Call to undefined method App\Models\api_posts_model::getPostsByCategoryId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\apiController.php(78): CodeIgniter\Model->__call('getPostsByCategoryId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->filter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

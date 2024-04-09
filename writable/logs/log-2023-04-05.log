@@ -1,0 +1,566 @@
+CRITICAL - 2023-04-05 01:57:07 --> file_get_contents(): php_network_getaddresses: getaddrinfo for source.unsplash.com failed: No such host is known. 
+in APPPATH\Controllers\Home.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): php_network_getaddresses: getaddrinfo for source.unsplash.com failed: No such host is known. ', 'APPPATH\\Controllers\\Home.php', 23)
+ 2 APPPATH\Controllers\Home.php(23): file_get_contents('https://source.unsplash.com/random/400x300')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:32:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 58.
+ 1 APPPATH\Controllers\Home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:33:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 58.
+ 1 APPPATH\Controllers\Home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:33:53 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 59.
+ 1 APPPATH\Controllers\Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:46:05 --> file_get_contents(https://picsum.photos/v2/list): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+in APPPATH\Controllers\Home.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://picsum.photos/v2/list): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 APPPATH\Controllers\Home.php(44): file_get_contents('https://picsum.photos/v2/list')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:46:26 --> file_get_contents(https://picsum.photos/v2/list?page=2&amp;limit=100): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+in APPPATH\Controllers\Home.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://picsum.photos/v2/list?page=2&amp;limit=100): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 APPPATH\Controllers\Home.php(44): file_get_contents('https://picsum.photos/v2/list?page=2&limit=100')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:47:48 --> file_get_contents(https://picsum.photos/v2/list?page=2&amp;limit=100): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+in APPPATH\Controllers\Home.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://picsum.photos/v2/list?page=2&amp;limit=100): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 APPPATH\Controllers\Home.php(44): file_get_contents('https://picsum.photos/v2/list?page=2&limit=100')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:49:32 --> file_get_contents(https://picsum.photos/v2/list?page=2&amp;limit=100): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+in APPPATH\Controllers\Home.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://picsum.photos/v2/list?page=2&amp;limit=100): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 APPPATH\Controllers\Home.php(44): file_get_contents('https://picsum.photos/v2/list?page=2&limit=100')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:50:38 --> file_get_contents(https://picsum.photos/v2/list?page=2&amp;limit=100): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+in APPPATH\Controllers\Home.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://picsum.photos/v2/list?page=2&amp;limit=100): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 APPPATH\Controllers\Home.php(44): file_get_contents('https://picsum.photos/v2/list?page=2&limit=100')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:54:12 --> 22 : The requested URL returned error: 403
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 403')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://picsum.photos/v2/list?limit=10')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://picsum.photos/v2/list?limit=10', [])
+ 5 APPPATH\Controllers\Home.php(44): CodeIgniter\HTTP\CURLRequest->get('https://picsum.photos/v2/list?limit=10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:55:39 --> 22 : The requested URL returned error: 403
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 403')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://picsum.photos/v2/list?limit=10')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://picsum.photos/v2/list?limit=10', [])
+ 5 APPPATH\Controllers\Home.php(44): CodeIgniter\HTTP\CURLRequest->get('https://picsum.photos/v2/list?limit=10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 02:57:33 --> file_get_contents(https://picsum.photos/v2/list): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+in APPPATH\Controllers\Home.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://picsum.photos/v2/list): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'APPPATH\\Controllers\\Home.php', 53)
+ 2 APPPATH\Controllers\Home.php(53): file_get_contents('https://picsum.photos/v2/list')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:02:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:02:30 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:05:51 --> file_get_contents(https://picsum.photos/v2/list?limit=10): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+in APPPATH\Controllers\Home.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://picsum.photos/v2/list?limit=10): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'APPPATH\\Controllers\\Home.php', 60)
+ 2 APPPATH\Controllers\Home.php(60): file_get_contents('https://picsum.photos/v2/list?limit=10', false, resource (stream-context))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:06:42 --> 22 : The requested URL returned error: 403
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 403')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://picsum.photos/v2/list?limit=10')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://picsum.photos/v2/list?limit=10', [])
+ 5 APPPATH\Controllers\Home.php(46): CodeIgniter\HTTP\CURLRequest->get('https://picsum.photos/v2/list?limit=10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:06:52 --> 22 : The requested URL returned error: 403
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 403')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://picsum.photos/v2/list?limit=10')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://picsum.photos/v2/list?limit=10', [])
+ 5 APPPATH\Controllers\Home.php(46): CodeIgniter\HTTP\CURLRequest->get('https://picsum.photos/v2/list?limit=10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:07:12 --> 22 : The requested URL returned error: 403
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 403')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://picsum.photos/v2/list?limit=10')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://picsum.photos/v2/list?limit=10', [])
+ 5 APPPATH\Controllers\Home.php(46): CodeIgniter\HTTP\CURLRequest->get('https://picsum.photos/v2/list?limit=10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:08:22 --> array_slice(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Home.php on line 52.
+ 1 APPPATH\Controllers\Home.php(52): array_slice(null, 0, 10)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:08:39 --> array_slice(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Home.php on line 52.
+ 1 APPPATH\Controllers\Home.php(52): array_slice(null, 0, 10)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:10:39 --> array_slice(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): array_slice(null, 0, 10)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:14:30 --> array_slice(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): array_slice(null, 0, 10)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-05 03:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-05 03:14:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\apiController.php on line 25.
+ 1 APPPATH\Controllers\apiController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\apiController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:16:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\apiController.php on line 25.
+ 1 APPPATH\Controllers\apiController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\apiController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 03:18:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\apiController.php on line 25.
+ 1 APPPATH\Controllers\apiController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\apiController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\apiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 13:32:36 --> 6 : Could not resolve host: jsonplaceholder.typicode.com
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: jsonplaceholder.typicode.com')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://jsonplaceholder.typicode.com/photos/3672')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://jsonplaceholder.typicode.com/photos/3672', [])
+ 5 APPPATH\Controllers\Home.php(18): CodeIgniter\HTTP\CURLRequest->get('https://jsonplaceholder.typicode.com/photos/3672')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 13:33:38 --> 6 : Could not resolve host: jsonplaceholder.typicode.com
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: jsonplaceholder.typicode.com')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://jsonplaceholder.typicode.com/photos/798')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://jsonplaceholder.typicode.com/photos/798', [])
+ 5 APPPATH\Controllers\Home.php(18): CodeIgniter\HTTP\CURLRequest->get('https://jsonplaceholder.typicode.com/photos/798')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 13:33:45 --> 6 : Could not resolve host: jsonplaceholder.typicode.com
+in SYSTEMPATH\HTTP\CURLRequest.php on line 666.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(666): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: jsonplaceholder.typicode.com')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(372): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(134): CodeIgniter\HTTP\CURLRequest->send('get', 'https://jsonplaceholder.typicode.com/photos/775')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(167): CodeIgniter\HTTP\CURLRequest->request('get', 'https://jsonplaceholder.typicode.com/photos/775', [])
+ 5 APPPATH\Controllers\Home.php(18): CodeIgniter\HTTP\CURLRequest->get('https://jsonplaceholder.typicode.com/photos/775')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 13:37:38 --> Undefined variable $posts
+in APPPATH\Views\Index.php on line 223.
+ 1 APPPATH\Views\Index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'APPPATH\\Views\\Index.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 13:38:05 --> Trying to access array offset on value of type int
+in APPPATH\Views\Index.php on line 227.
+ 1 APPPATH\Views\Index.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Index.php', 227)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 13:54:56 --> Undefined array key "download_url"
+in APPPATH\Views\Index.php on line 230.
+ 1 APPPATH\Views\Index.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "download_url"', 'APPPATH\\Views\\Index.php', 230)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 13:55:11 --> Undefined array key "url"
+in APPPATH\Views\Index.php on line 230.
+ 1 APPPATH\Views\Index.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Index.php', 230)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 13:58:38 --> Undefined array key "url"
+in APPPATH\Views\Index.php on line 230.
+ 1 APPPATH\Views\Index.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Index.php', 230)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 14:56:01 --> Undefined array key "url"
+in APPPATH\Views\Index.php on line 230.
+ 1 APPPATH\Views\Index.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Index.php', 230)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 14:56:34 --> Undefined array key "url"
+in APPPATH\Views\Index.php on line 230.
+ 1 APPPATH\Views\Index.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Index.php', 230)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 15:01:34 --> Undefined variable $row
+in APPPATH\Views\Index.php on line 143.
+ 1 APPPATH\Views\Index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\Index.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 15:05:06 --> Trying to access array offset on value of type int
+in APPPATH\Views\Index.php on line 237.
+ 1 APPPATH\Views\Index.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Index.php', 237)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 15:09:40 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262160384 bytes)
+in APPPATH\Views\Index.php on line 238.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-05 15:09:49 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262160384 bytes)
+in APPPATH\Views\Index.php on line 238.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-05 15:10:22 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262160384 bytes)
+in APPPATH\Views\Index.php on line 239.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-05 15:10:44 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 260063232 bytes)
+in APPPATH\Views\Index.php on line 244.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-05 15:46:23 --> syntax error, unexpected end of file
+in APPPATH\Views\Index.php on line 669.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 15:47:04 --> Undefined variable $photo
+in APPPATH\Views\Index.php on line 226.
+ 1 APPPATH\Views\Index.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $photo', 'APPPATH\\Views\\Index.php', 226)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 16:59:35 --> syntax error, unexpected token ";", expecting variable or "{" or "$"
+in APPPATH\Views\Index.php on line 260.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 17:24:17 --> syntax error, unexpected end of file
+in APPPATH\Views\Index.php on line 650.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 17:36:41 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\Index.php on line 222.
+ 1 APPPATH\Views\Index.php(222): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 17:37:24 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\Index.php on line 222.
+ 1 APPPATH\Views\Index.php(222): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 17:38:40 --> Array to string conversion
+in APPPATH\Views\Index.php on line 222.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Index.php', 222)
+ 2 APPPATH\Views\Index.php(222): array_combine([...], [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 6 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 17:39:34 --> Undefined variable $post
+in APPPATH\Views\Index.php on line 239.
+ 1 APPPATH\Views\Index.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'APPPATH\\Views\\Index.php', 239)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 17:52:23 --> Undefined array key "url"
+in APPPATH\Views\Index.php on line 242.
+ 1 APPPATH\Views\Index.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Index.php', 242)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 17:56:38 --> Undefined array key "url"
+in APPPATH\Views\Index.php on line 238.
+ 1 APPPATH\Views\Index.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Index.php', 238)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 17:56:53 --> Undefined variable $photo
+in APPPATH\Views\Index.php on line 238.
+ 1 APPPATH\Views\Index.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $photo', 'APPPATH\\Views\\Index.php', 238)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 17:57:18 --> Array to string conversion
+in APPPATH\Views\Index.php on line 236.
+ 1 APPPATH\Views\Index.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Index.php', 236)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 17:57:48 --> Undefined array key "image"
+in APPPATH\Views\Index.php on line 238.
+ 1 APPPATH\Views\Index.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\Index.php', 238)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 18:04:23 --> Undefined array key "url"
+in APPPATH\Views\Index.php on line 243.
+ 1 APPPATH\Views\Index.php(243): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Index.php', 243)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 18:06:21 --> Undefined array key "url"
+in APPPATH\Views\Index.php on line 241.
+ 1 APPPATH\Views\Index.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Index.php', 241)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 18:06:39 --> Undefined array key "url"
+in APPPATH\Views\Index.php on line 241.
+ 1 APPPATH\Views\Index.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'APPPATH\\Views\\Index.php', 241)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 18:08:07 --> Undefined variable $p
+in APPPATH\Views\Index.php on line 222.
+ 1 APPPATH\Views\Index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'APPPATH\\Views\\Index.php', 222)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 18:18:28 --> Trying to access array offset on value of type int
+in APPPATH\Views\Index.php on line 232.
+ 1 APPPATH\Views\Index.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Index.php', 232)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 18:18:57 --> Trying to access array offset on value of type int
+in APPPATH\Views\Index.php on line 232.
+ 1 APPPATH\Views\Index.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\Index.php', 232)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
